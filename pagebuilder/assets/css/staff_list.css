@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+.pb_staff_list,
+.pb_staff_list-item {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.pb_staff_list {
+  color: #666;
+  line-height: 2;
+}
+
+.pb_staff_list-item {
+}
+
+.pb_staff_list-item-upside.has-image {
+  margin: 50px 0 0;
+}
+
+.pb_staff_list-item-upside.has-image .pb_staff_list-image {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.pb_staff_list-item-upside.has-image .pb_staff_list-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.pb_staff_list-item-upside.has-image .pb_staff_list-names {
+  width: 100%;
+}
+
+.pb_staff_list-names {
+  line-height: 1.8;
+}
+
+.pb_staff_list-position {
+  text-align: center;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.pb_staff_list-name {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.pb_staff_list-othername {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.pb_staff_list-item-upside {
+  margin-bottom: 30px;
+}
+
+.pb_staff_list-description {
+  margin-bottom: 15px;
+}
+
+.pb_staff_list-social {
+  font-size: 20px;
+  list-style: none !important;
+  margin: 10px 0 30px;
+  padding: 0 !important;
+  text-align: center;
+}
+
+.pb_staff_list-social li {
+  display: inline;
+  list-style: none;
+  margin: 0 25px 0 0;
+  padding: 0;
+}
+
+.pb_staff_list-social li:last-child {
+  margin-right: 0;
+}
+
+.pb_staff_list-social li a {
+  color: #888;
+  font-size: 24px;
+  text-decoration: none !important;
+}
+
+.pb_staff_list-social a.facebook:hover {
+  color: #3f63ae;
+}
+.pb_staff_list-social a.instagram:hover {
+  color: #bc329f;
+}
+.pb_staff_list-social a.podcast:hover {
+  color: #9933cc;
+}
+.pb_staff_list-social a.youtube:hover {
+  color: #f40105;
+}
+
+.pb_staff_list-social li a:before {
+  font-family: "design_plus";
+  -webkit-transition-property: none;
+}
+
+.pb_staff_list-social-facebook a:before {
+  content: "\e902";
+}
+
+.pb_staff_list-social-twitter a:before {
+  content: "\e904";
+}
+
+.pb_staff_list-social-instagram a:before {
+  content: "\ea92";
+}
+
+.pb_staff_list-social-rss a:before {
+  content: "\e90b";
+}
+
+@media only screen and (min-width: 768px) {
+  .pb_staff_list {
+    color: #666;
+    line-height: 2.4;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-box-lines: multiple;
+    -moz-box-lines: multiple;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .pb_staff_list-item-upside.has-image {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+  }
+
+  .pb_staff_list-item-upside.has-image .pb_staff_list-image {
+    width: 46%;
+  }
+
+  .pb_staff_list-item-upside.has-image .pb_staff_list-names {
+    width: 46%;
+    padding-left: 8%;
+  }
+
+  .pb_staff_list-names {
+    line-height: 2;
+  }
+
+  .pb_staff_list-position {
+    color: #000;
+    text-align-last: left;
+  }
+
+  .pb_staff_list-name {
+    font-size: 22px;
+    line-height: 1.5;
+    text-align-last: left;
+  }
+  .pb_staff_list-position,
+  .pb_staff_list-name,
+  .pb_staff_list-othername,
+  .pb_staff_list-social {
+    text-align-last: left;
+  }
+
+  .pb_staff_list-item-upside {
+    margin-bottom: 50px;
+  }
+
+  .pb_staff_list-description {
+    margin-bottom: 40px;
+  }
+}
